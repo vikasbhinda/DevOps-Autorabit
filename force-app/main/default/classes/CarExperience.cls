@@ -13,4 +13,7 @@ public with sharing class CarExperience {
                WHERE Car__c  = :carId
                ORDER BY CreatedDate DESC];
     }
+    public class Demo{
+        public String class {get;set;}
+    }
 }
